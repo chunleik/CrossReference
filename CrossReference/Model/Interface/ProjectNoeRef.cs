@@ -7,7 +7,7 @@ namespace Model.Interface
 {
     public abstract class ProjectNoeRef : ICrossReference
     {
-        public abstract IDictionary<RefModel, ObjMetadata> MetadataDic { get; set; }
+        public abstract IDictionary<string, ObjMetadata> MetadataDic { get; set; }
 
         public abstract bool Replace(IList<RefModel> objRefInfos);
 

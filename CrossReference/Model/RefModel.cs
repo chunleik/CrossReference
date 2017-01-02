@@ -9,6 +9,8 @@ namespace Model
     {
         private List<RefModel> children;
 
+        public string Key { get; set; }
+
         public List<RefModel> Children
         {
             get { return children??(children=new List<RefModel>()); }
